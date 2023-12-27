@@ -1,0 +1,23 @@
+body,html {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background: black;
+}
+{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('sua-imagem-de-fundo.png') center/cover no-repeat fixed; /* Substitua 'sua-imagem-de-fundo.png' pelo caminho da sua imagem de fundo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.7); /* Define uma cor de fundo com transparência (no exemplo, 70% opaca) */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
